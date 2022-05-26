@@ -72,6 +72,8 @@ group :test do
 end
 
 # Customizations here
+gem "activeadmin"
+gem "sassc-rails"
 gem "sorbet-runtime"
 group :development do
   gem "tapioca", require: false

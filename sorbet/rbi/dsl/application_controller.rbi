@@ -20,6 +20,7 @@ class ApplicationController
     include ::ActionText::ContentHelper
     include ::ActionText::TagHelper
     include ::Importmap::ImportmapTagsHelper
+    include ::Ransack::Helpers::FormHelper
     include ::ActionController::Base::HelperMethods
     include ::ApplicationHelper
   end
