@@ -1,0 +1,12 @@
+<h1>Welcome</h1>
+<p>
+You are logged in with session <%= @current_session.token %>
+</p>
+
+<p>
+The current session's class's object_id is: <%= @current_session.class.object_id %>
+</p>
+
+<p>
+<%= link_to("Log out", logout_path) %>
+</p>
